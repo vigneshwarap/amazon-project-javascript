@@ -83,7 +83,7 @@ document.querySelectorAll('.js-add-to-cart').forEach((button) => {
       console.log(cart)
       console.log(cartQuantity)
 
-      document.querySelector('.js-cart-quantity').innerHTML = cartQuantity;
+      document.querySelector('. js-cart-quantity').innerHTML = cartQuantity;
   }
   )
 })
